@@ -1,0 +1,8 @@
+node_modules
+uploads
+test
+.git
+*.md
+*.gpg
+vault.sh
+.vault

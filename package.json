@@ -1,0 +1,25 @@
+{
+  "name": "practica-secretaria-virtual",
+  "version": "1.0.0",
+  "description": "API de la Secretaría Virtual del IES Turing para practicar peticiones HTTP",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "start:memoria": "REPOSITORIO=memoria node src/server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
